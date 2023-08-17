@@ -3,8 +3,6 @@ Files uploaded in the repository were dataset used and model building code. The 
 
 It is highly recommended to split each models into individual folders, unless you plan to use only one type of model. The duration of running the code varies on the power of device used. To avoid error due to overload, it is recommended to **not build models all at once** (for example, build only the first until tenth model, then the eleventh until twentieth model).
 
-# **Screenshots**
-
 # **A. Introduction**
 As time went by, vending machines that initially only accepted coins can now accept paper money. On the other hand, despite being able to accept paper money, vending machines in Indonesia do not accept money in poor conditions such as being dirty and torn. In fact, these kinds of paper money should still be valid for trade. This suggests the need for a model that can recognize banknotes in these conditions.
 
@@ -35,3 +33,27 @@ The model produced can recognize rupiah paper currency well. VGG-16 with image p
 
 # **F. Conclusion**
 This study showed that VGG-16 with image processing gave the best results with the highest accuracy of 91.43%. In addition, the study proved that image processing can improve the accuracy of the model, as shown in the average accuracy of the image processing study which is higher than the study without image processing. The average accuracy obtained by VGG-16 and VGG-19 in research without image processing is 53.90% and 45.23% while the average accuracy obtained in research with image processing is 57.28% and 55.55%.
+
+# **Screenshots**
+## Running the code
+<p align="center">
+    <img height="400" src="https://github.com/ardinadnn/Rupiah-PCR-Using-Image-Processing-and-CNN/assets/87525325/4c1e0acc-5b24-403f-bacb-7838d2e19977" alt="image">
+</p>
+<p align="center">
+    <img height="200" src="https://github.com/ardinadnn/Rupiah-PCR-Using-Image-Processing-and-CNN/assets/87525325/9e0d1244-44f8-4b6f-a36d-022035a46164" alt="image">
+</p>
+<p align="center">
+    <img width="400" src="https://github.com/ardinadnn/Rupiah-PCR-Using-Image-Processing-and-CNN/assets/87525325/e2c159f9-df5f-4bee-b6be-cf5a17351010" alt="image">
+</p>
+
+## Excel file of model accuracy
+<p align="center">
+    <img src="https://github.com/ardinadnn/Rupiah-PCR-Using-Image-Processing-and-CNN/assets/87525325/f2ac003a-739c-4949-85ee-eb0568dc386b" alt="image">
+</p>
+
+## Directory structure after running
+<p align="center">
+    <img height="100" src="https://github.com/ardinadnn/Rupiah-PCR-Using-Image-Processing-and-CNN/assets/87525325/04f98f57-89a5-459b-b000-7ad31813298f" alt="image">
+    <img height="100" src="https://github.com/ardinadnn/Rupiah-PCR-Using-Image-Processing-and-CNN/assets/87525325/1b3c87c1-30ca-4ef1-87db-9f1d0d4bc26a" alt="image">
+    <img width="400" src="https://github.com/ardinadnn/Rupiah-PCR-Using-Image-Processing-and-CNN/assets/87525325/d2ceddd1-6dc9-4d33-a3f6-94347d9641f9" alt="image">
+</p>
